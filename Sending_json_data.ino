@@ -6,8 +6,8 @@
 #define DHTTYPE DHT11
 #define SOIL_PIN A0
 
-const char* ssid = "bidur";
-const char* password = "11223344";
+const char* ssid = "Wi-Fi name";
+const char* password = "Wi-fi Password";
 
 ESP8266WebServer server(80);  // Web server on port 80
 DHT dht(DHTPIN, DHTTYPE);
